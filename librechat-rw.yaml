@@ -13,10 +13,15 @@ interface:
     externalUrl: "https://example.com/terms"
     openNewTab: true
   endpointsMenu: true
-  modelSelect: false
+  modelSelect: true
   parameters: true
   sidePanel: false
   presets: false
+
+preset:
+  endpoint: "openAI"
+  model: "gpt-4o"
+
 
 endpoints:
   custom:
