@@ -18,19 +18,6 @@ interface:
   sidePanel: false
   presets: false
 
-modelSpecs:
-  enforce: true
-  prioritize: true
-  list:
-    - name: "GPT-Alvaro"
-      label: "GPT4o - Alvaro"
-      description: "Generate meeting notes by simply pasting in the transcript from a Teams recording."
-      iconURL: "https://example.com/icon.png"
-      preset:
-        default: true
-        endpoint: "OpenAI"
-        model: "gpt-4o"
-
 endpoints:
   custom:
     # Anyscale
