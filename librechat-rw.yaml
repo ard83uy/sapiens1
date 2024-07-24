@@ -23,7 +23,7 @@ modelSpecs:
   prioritize: true
   list:
     - name: "GPT-Alvaro"
-      label: "Meeting Notes Assistant (GPT4)"
+      label: "GPT4o - Alvaro"
       description: "Generate meeting notes by simply pasting in the transcript from a Teams recording."
       iconURL: "https://example.com/icon.png"
       preset:
