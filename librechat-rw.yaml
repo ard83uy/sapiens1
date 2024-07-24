@@ -5,6 +5,19 @@ cache: true
 registration:
   socialLogins: ["discord", "facebook", "github", "google", "openid"]
 
+interface:
+  privacyPolicy:
+    externalUrl: "https://example.com/privacy"
+    openNewTab: true
+  termsOfService:
+    externalUrl: "https://example.com/terms"
+    openNewTab: true
+  endpointsMenu: false
+  modelSelect: false
+  parameters: true
+  sidePanel: true
+  presets: false
+
 endpoints:
   custom:
     # Anyscale
@@ -394,7 +407,7 @@ endpoints:
     # groq
     - name: "groq"
       apiKey: "${GROQ_API_KEY}"
-      baseURL: "https://api.groq.com/openai/v1/"
+      baseURL: "https://api.groq.com//v1/"
       models:
         default: [
           "llama2-70b-4096",
