@@ -12,10 +12,10 @@ interface:
   termsOfService:
     externalUrl: "https://example.com/terms"
     openNewTab: true
-  endpointsMenu: false
+  endpointsMenu: true
   modelSelect: false
   parameters: true
-  sidePanel: true
+  sidePanel: false
   presets: false
 
 endpoints:
