@@ -18,10 +18,20 @@ interface:
   sidePanel: false
   presets: false
 
-preset:
-  endpoint: "openAI"
-  model: "gpt-4o"
-
+modelSpecs:
+  enforce: true
+  prioritize: true
+  list:
+    - name: "GPT-Alvaro"
+      label: "Meeting Notes Assistant (GPT4)"
+      description: "Generate meeting notes by simply pasting in the transcript from a Teams recording."
+      iconURL: "https://example.com/icon.png"
+      preset:
+        default: true
+        endpoint: "OpenAI"
+        model: "gpt-4o"
+        maxContextTokens: 128000 # Maximum context tokens
+        max_tokens: 4096 # Maximum output tokens
 
 endpoints:
   custom:
