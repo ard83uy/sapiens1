@@ -6,12 +6,12 @@ registration:
   socialLogins: ["discord", "facebook", "github", "google", "openid"]
 
 interface:
-  privacyPolicy:
-    externalUrl: "https://example.com/privacy"
-    openNewTab: true
-  termsOfService:
-    externalUrl: "https://example.com/terms"
-    openNewTab: true
+#  privacyPolicy:
+#    externalUrl: "https://example.com/privacy"
+#    openNewTab: true
+#  termsOfService:
+#    externalUrl: "https://example.com/terms"
+#    openNewTab: true
   endpointsMenu: true
   modelSelect: true
   parameters: true
