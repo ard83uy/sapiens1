@@ -23,7 +23,8 @@ endpoints:
    disableBuilder: false
    pollIntervalMs: 750  # Polling interval for checking assistant updates
    timeoutMs: 180000  # Timeout for assistant operations
-   supportedIds: ["asst_mPoqBzViD2oXhDnB2i9lDO1Q"]
+   supportedIds:
+   - "asst_mPoqBzViD2oXhDnB2i9lDO1Q"
   #   # (optional) Models that support retrieval, will default to latest known OpenAI models that support the feature
   #   retrievalModels: ["gpt-4-turbo-preview"]
   #   # (optional) Assistant Capabilities available to all users. Omit the ones you wish to exclude. Defaults to list below.
